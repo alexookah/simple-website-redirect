@@ -266,6 +266,8 @@ class SimpleWebsiteRedirect {
 				'/wp-admin',
 				'/wp-json',
 				'/wp-login.php',
+				'/wp-login.php',
+				'/wp-cron.php',
 			),
 			$excluded_paths,
 			self::get_excluded_paths()
